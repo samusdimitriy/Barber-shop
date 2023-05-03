@@ -1,33 +1,23 @@
-barbershop
+Barbershop
 
----
+CSS Styling Manual
 
-мануал по стилизации в CSS
+Universal - * tag - div (example)
 
-универсальный - \* тега - div (пример)
+ID - #header-btn (can only be used once on the page)
 
-id - #header-btn (только один раз можно использовать на странице)
+Class - .header-btn (using a dot)
 
-class - .header-btn (через точку)
+Attribute - [type], [type="button"]
 
-атрибут - [type], [type="button"]
+Child - .header-list > .header-link (first nesting using the equal sign)
 
-дочерний - .header-list > .header-link (первая вложеность через знак равенства)
+Descendant - .header-list a (for all descendants using a space)
 
-потомка - .header-list a (для всех потомков через пробел)
+Utility classes (for example, one class for resetting link decorations and margins with paddings)
 
-утилитарные классы (например один класс для сброса ссылкам декораций и марджины
-с падингами)
-
----
-
-атрибут на ссылки против фишинга rel="noopener noreferrer nofollow"
-
----
+Attribute for links against phishing rel="noopener noreferrer nofollow"
 
 Font Fascia
 
-плагин чтобы посмотреть в Figma сразу все стили шрифтов, которые используются в
-макете.
-
----
+Plugin to see all font styles used in a layout in Figma at once.
